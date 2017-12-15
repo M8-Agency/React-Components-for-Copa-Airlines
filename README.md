@@ -1,10 +1,10 @@
-# copa-airlines-components
+# React Components for Copa Airlines
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Describe copa-airlines-components here.
+This project includes full-featured responseive Booking Engine and a Newsletter Signup React components.
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
