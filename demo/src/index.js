@@ -10,7 +10,7 @@ import Footer from "./components/footer";
 import { BookingEngine, NewsletterSignup } from "../../src";
 
 const StyledDemo = styled.div`
-  max-width: 800px;
+  max-width: 1024px;
   margin: 0 auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
