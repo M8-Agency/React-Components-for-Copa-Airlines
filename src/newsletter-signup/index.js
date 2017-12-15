@@ -4,7 +4,7 @@ class NewsletterSignup extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1>Newsletter Signup</h1>
+        <p>newsletter signup goes here...</p>
       </React.Fragment>
     );
   }

@@ -4,7 +4,7 @@ class BookingEngine extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1>Booking Engine</h1>
+        <p>booking engine goes here...</p>
       </React.Fragment>
     );
   }
