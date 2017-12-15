@@ -1,14 +1,19 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 
-import Example from "../../src";
+import { BookingEngine, NewsletterSignup } from "../../src";
 
 class Demo extends Component {
   render() {
     return (
       <div>
         <h1>copa-airlines-components Demo</h1>
-        <Example />
+        <BookingEngine />
+
+        <hr />
+        <h2>NewsletterSignup</h2>
+        <NewsletterSignup />
+        <h2>Booking Engine</h2>
       </div>
     );
   }
