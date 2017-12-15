@@ -11,7 +11,8 @@ const typography = new Typography({
     "Arial",
     "sans-serif"
   ],
-  bodyFontFamily: ["Georgia", "serif"]
+  bodyFontFamily: ["Georgia", "serif"],
+  includeNormalize: true
 });
 
 typography.injectStyles();
