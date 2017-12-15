@@ -10,10 +10,17 @@ import Footer from "./components/footer";
 import { BookingEngine, NewsletterSignup } from "../../src";
 
 const StyledDemo = styled.div`
-  max-width: 1024px;
-  margin: 0 auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  .wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  code {
+    padding: 0.5rem;
+    background: #eaeaea;
+    border-radius: 0.2rem;
+  }
 `;
 
 class Demo extends Component {
@@ -22,14 +29,21 @@ class Demo extends Component {
       <StyledDemo>
         <Header />
 
-        <main>
-          <BookingEngine />
+        <main className="wrapper">
+          <p>
+            This project includes full-featured responseive Booking Engine and a
+            Newsletter Signup React components.
+          </p>
 
+          <h2>Getting started</h2>
+
+          <h3>Installation</h3>
+          <p>
+            To download copa-airlines-components run{" "}
+            <code>npm install copa-airlines-components</code>. And that's it!
+            You are now ready to use these components in your React app.
+          </p>
           <hr />
-          <h2>NewsletterSignup</h2>
-          <NewsletterSignup />
-          <h2>Booking Engine</h2>
-
           <Examples />
         </main>
 
